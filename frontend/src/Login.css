@@ -1,0 +1,29 @@
+html{
+  background: rgb(73,72,92);
+background: linear-gradient(90deg, rgba(73,72,92,1) 0%, rgba(176,50,49,1) 48%, rgba(215,215,215,1)100%);
+}
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  /* background: rgb(73,72,92);
+  background: linear-gradient(90deg, rgba(73,72,92,1) 0%, rgba(176,50,49,1) 48%, rgba(215,215,215,1)100%); */
+}
+.myBodystyle{
+  /* height :100%; */
+  /* background: rgb(73,72,92);
+  background: linear-gradient(90deg, rgba(73,72,92,1) 0%, rgba(176,50,49,1) 48%, rgba(215,215,215,1)100%); */
+}
+.button_style {
+  margin-left: 10px !important;
+  margin-right: 10px;
+}
+
+.centerTable {
+  margin: 0px auto;
+}
+#regColor{
+  color: blue;
+}
+#loginHead {
+    color: #b03231;
+}

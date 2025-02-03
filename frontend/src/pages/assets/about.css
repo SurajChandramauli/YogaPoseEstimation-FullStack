@@ -1,0 +1,107 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  .location, .contact-info, .quote {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: #003366;
+    margin: 0 8px;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .quote {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .bio, .experience, .education, .skills-list, .project, ul {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .experience, .project {
+    margin-bottom: 20px;
+  }
+  
+  .experience h3, .project h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  .experience ul, .project ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .experience p, .project p {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .skills-list {
+    margin-left: 20px;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
